@@ -1,6 +1,6 @@
-# PortfolioLens
+# QFolio
 
-PortfolioLens is a Streamlit micro-SaaS for portfolio analytics. It supports:
+QFolio is a Streamlit micro-SaaS for portfolio analytics. It supports:
 - Asset/index comparison using Yahoo Finance tickers.
 - Portfolio upload via CSV (`ticker,weight`) with validation.
 - Performance analytics (CAGR, Vol, Sharpe, Sortino, Max Drawdown, Calmar, Beta/Alpha).
@@ -45,7 +45,7 @@ docker compose up -d postgres
 ```
 
 Option B (local Postgres):
-- Create DB `portfoliolens`
+- Create DB `qfolio`
 - Update `DATABASE_URL` in `.env`
 
 ### 3) Run migrations

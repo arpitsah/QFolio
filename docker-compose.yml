@@ -3,7 +3,7 @@ services:
   postgres:
     image: postgres:16
     environment:
-      POSTGRES_DB: portfoliolens
+      POSTGRES_DB: qfolio
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:
@@ -16,7 +16,7 @@ services:
     env_file:
       - .env
     environment:
-      DATABASE_URL: postgresql+psycopg://postgres:postgres@postgres:5432/portfoliolens
+      DATABASE_URL: postgresql+psycopg://postgres:postgres@postgres:5432/qfolio
     ports:
       - "8501:8501"
     depends_on:

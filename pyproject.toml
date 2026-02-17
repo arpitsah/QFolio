@@ -3,12 +3,12 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "portfoliolens"
+name = "qfolio"
 version = "0.1.0"
 description = "Streamlit micro-SaaS for portfolio analytics and recommendations"
 readme = "README.md"
 requires-python = ">=3.11"
-authors = [{ name = "PortfolioLens" }]
+authors = [{ name = "QFolio" }]
 dependencies = [
   "streamlit>=1.35.0",
   "pandas>=2.1.0",

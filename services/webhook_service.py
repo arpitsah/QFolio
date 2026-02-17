@@ -5,7 +5,7 @@ import os
 import stripe
 from fastapi import FastAPI, Header, HTTPException, Request
 
-app = FastAPI(title="PortfolioLens Webhooks")
+app = FastAPI(title="QFolio Webhooks")
 
 stripe.api_key = os.getenv("STRIPE_SECRET_KEY", "")
 webhook_secret = os.getenv("STRIPE_WEBHOOK_SECRET", "")

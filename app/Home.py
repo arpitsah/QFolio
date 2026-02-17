@@ -4,10 +4,10 @@ import streamlit as st
 
 from app.auth import auth_widget
 
-st.set_page_config(page_title="PortfolioLens", layout="wide")
+st.set_page_config(page_title="QFolio", layout="wide")
 auth_widget()
 
-st.title("PortfolioLens")
+st.title("QFolio")
 st.caption("Portfolio analytics and actionable recommendations as a micro-SaaS")
 
 st.markdown(
